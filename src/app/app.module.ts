@@ -7,9 +7,9 @@ import { HelloComponent } from './hello.component';
 import { MoviesComponent } from './movies.component';
 import { BriyaniTypesComponent } from './BriyaniTypes/BriyaniTypes.component';
 import { CommonModule } from '@angular/common';
-
+import {MatButtonModule} from '@angular/material/button';
 @NgModule({
-  imports: [BrowserModule, FormsModule],
+  imports: [BrowserModule, FormsModule,MatButtonModule],
   declarations: [
     AppComponent,
     HelloComponent,
